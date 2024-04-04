@@ -1998,7 +1998,14 @@ Breadcrumb
         .banner__content p {
           font-size: 17px; } }
   .banner__img {
-    margin-right: -30px; }
+    margin-right: -30px; 
+  }
+  .banner__img img{
+    border-top-left-radius: 20px;
+   }
+    @media (max-width: 993px) {
+      .banner__img img {
+        border-top-left-radius: 0px; } }
     @media (max-width: 1800px) {
       .banner__img {
         margin-right: 0; } }
@@ -2169,7 +2176,7 @@ Breadcrumb
       font-size: 38px; } }
   @media (max-width: 767.98px) {
     .section__title .title {
-      font-size: 32px; } }
+      font-size: 24px; } }
 
 .about {
   position: relative;
@@ -4886,7 +4893,14 @@ Breadcrumb
       color: #898989;
       font-size: 15px; }
   .footer__widget__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     margin-right: 40px; }
+    .footer__widget__text a{
+      color: #898989; }
+      .footer__widget__text a:hover{
+        color: #FCAF17; }
   .footer__widget__address .mail {
     color: #fff;
     font-size: 15px; }
