@@ -208,17 +208,16 @@ hona<!doctype html>
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="section__title">
-                                    <span class="sub-title">07 - Say hello</span>
                                     <h2 class="title">Any questions? Feel free <br> to contact</h2>
                                 </div>
                                 <div class="homeContact__content">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
-                                    <h2 class="mail"><a href="mailto:Info@webmail.com">Info@webmail.com</a></h2>
+                                    <p>For any queries or assistance, our help desk is here round-the-clock. Don't hesitate to reach out whenever needed.</p>
+                                    <h2 class="mail"><a href="mailto:Info@webmail.com">hona@mail.com</a></h2>
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="homeContact__form">
-                                    <form action="#">
+                                    <form action="https://formspree.io/f/xgeqwprz" method="POST">
                                         <input type="text" placeholder="Enter name*">
                                         <input type="email" placeholder="Enter mail*">
                                         <input type="number" placeholder="Enter number*">
@@ -239,19 +238,20 @@ hona<!doctype html>
 
 
         <!-- Footer-area -->
+
         <footer class="footer">
             <div class="container">
                 <div class="row justify-content-between">
                     <div class="col-lg-4">
                         <div class="footer__widget">
                             <div class="fw-title">
-                                <h5 class="sub-title">Contact us</h5>
-                                <h4 class="title">+81383 766 284</h4>
+                                <h5 class="sub-title">Useful Links</h5>
                             </div>
                             <div class="footer__widget__text">
-                                <p>There are many variations of passages of lorem ipsum
-                                available but the majority have suffered alteration
-                                in some form is also here.</p>
+                                <a href="#">On going projects</a>
+                                <a href="#">Successful Projects</a>
+                                <a href="#">Served People</a>
+                                <a href="#">Research Publications </a>
                             </div>
                         </div>
                     </div>
@@ -259,11 +259,11 @@ hona<!doctype html>
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">our address</h5>
-                                <h4 class="title">AUSTRALIA</h4>
+                                <h4 class="title">TANZANIA</h4>
                             </div>
                             <div class="footer__widget__address">
-                                <p>Level 13, 2 Elizabeth Steereyt set <br> Melbourne, Victoria 3000</p>
-                                <a href="mailto:noreply@envato.com" class="mail">noreply@envato.com</a>
+                                <p>Mikocheni A - Dar es Salaam <br> Bagamoyo road</p>
+                                <a href="mailto:noreply@envato.com" class="mail">mail us</a>
                             </div>
                         </div>
                     </div>
@@ -274,13 +274,12 @@ hona<!doctype html>
                                 <h4 class="title">socially connect</h4>
                             </div>
                             <div class="footer__widget__social">
-                                <p>Lorem ipsum dolor sit amet enim. <br> Etiam ullamcorper.</p>
+                                <p>Keep in touch with us via<br> our social networks</p>
                                 <ul class="footer__social__list">
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://x.com/Hona_africa?s=20"><span class="fab fa-twitter"></span></a></li>
+                                    <li><a href="https://www.facebook.com/profile.php?id=61558073002856"><span class="fab fa-facebook-square"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/company/health-one-on-one-africa/mycompany/?viewAsMember=true"><span class="fab fa-linkedin-in"></span></a></li>
+                                    <li><a href="https://www.instagram.com/hona_africa/"><span class="fab fa-instagram"></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -290,7 +289,7 @@ hona<!doctype html>
                     <div class="row">
                         <div class="col-12">
                             <div class="copyright__text text-center">
-                                <p>Copyright @ Theme_Pure 2021 All right Reserved</p>
+                                <p id="copyright"></p>
                             </div>
                         </div>
                     </div>
@@ -300,9 +299,11 @@ hona<!doctype html>
         <!-- Footer-area-end -->
 
 
-
-
 		<!-- JS here -->
+        <script>
+            var currentYear = new Date().getFullYear();
+            document.getElementById("copyright").innerHTML = "Copyright @ HONA " + currentYear + " All right Reserved";
+        </script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="assets/js/isotope.pkgd.min.js"></script>

@@ -1887,6 +1887,9 @@ Breadcrumb
     min-height: 285px;
     margin: 0 auto;
     z-index: -1; }
+    .contact-icon{
+      color: #FCAF17; 
+    }
     @media (max-width: 1500px) {
       .breadcrumb__wrap__icon {
         bottom: 30px;
