@@ -1868,6 +1868,12 @@ Breadcrumb
       @media (max-width: 767.98px) {
         .breadcrumb__wrap__content .title {
           font-size: 46px; } }
+      @media (max-width: 700px) {
+        .contact-wrap {
+          height: 400px; } }
+      @media (max-width: 427px) {
+        .contact-wrap {
+          height: 200px; } }
   .breadcrumb__wrap .breadcrumb {
     margin-bottom: 0;
     justify-content: center; }
@@ -1937,6 +1943,57 @@ Breadcrumb
         .breadcrumb__wrap__icon ul li:nth-child(6) img {
           max-width: 102px; }
 
+/*=============================
+Animated Counts
+=============================*/
+  .counts {
+    background: #F7F7F7;
+    padding: 70px 20px 60px;
+  }
+
+  .counts .count-box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+  }
+
+  .counts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    background: #FCAF17;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+  }
+
+  .counts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #082744;
+  }
+
+  .counts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+  }
+  .count-content{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row;
+  }
 /*=============================
 03. Banner
 =============================*/
@@ -2664,6 +2721,9 @@ Breadcrumb
         -webkit-transform: scale(1, 1);
         -ms-transform: scale(1, 1);
         transform: scale(1, 1); }
+  .services__thumb {
+        border: 1px solid #FCAF17;
+    }
   .services__thumb img {
     width: 100%; }
   .services__content {
@@ -4678,6 +4738,12 @@ Breadcrumb
     position: relative;
     display: inline-block;
     z-index: 1; }
+    @media (max-width: 500px) {
+      .homeContact__content .mail a {
+        font-size: 20px; } }
+    @media (max-width: 390px) {
+      .homeContact__content .mail a {
+        font-size: 15px; } }
     .homeContact__content .mail a::after {
       content: "";
       position: absolute;
@@ -4863,6 +4929,17 @@ Breadcrumb
     display: block;
     font-size: 17px;
     line-height: 1.5; }
+  .image-wrapper {
+      height: 350px;
+      margin-top: -130px;
+  }  
+  @media (max-width: 1500px) {
+    .image-wrapper  {
+      margin-top: -70px; } }
+
+  @media (max-width: 700px) {
+    .image-wrapper  {
+      height: 100%; } }
 
 /*=============================
 13. Footer
@@ -4901,7 +4978,8 @@ Breadcrumb
     justify-content: flex-start;
     margin-right: 40px; }
     .footer__widget__text a{
-      color: #898989; }
+      color: #fff; 
+      font-size: 15px;}
       .footer__widget__text a:hover{
         color: #FCAF17; }
   .footer__widget__address .mail {
@@ -5218,3 +5296,7 @@ body.active-dark-mode {
     border-color: #313B58; }
   .active-dark-mode .copyright__text p {
     color: #9099AB; }
+
+
+
+    
