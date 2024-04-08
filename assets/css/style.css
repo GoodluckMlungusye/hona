@@ -4929,17 +4929,6 @@ Animated Counts
     display: block;
     font-size: 17px;
     line-height: 1.5; }
-  .image-wrapper {
-      height: 350px;
-      margin-top: -130px;
-  }  
-  @media (max-width: 1500px) {
-    .image-wrapper  {
-      margin-top: -70px; } }
-
-  @media (max-width: 700px) {
-    .image-wrapper  {
-      height: 100%; } }
 
 /*=============================
 13. Footer
