@@ -1520,6 +1520,7 @@ label {
     top: 0;
     width: 100%;
     height: auto;
+    background: #ffffff;
     z-index: 99; }
   .menu__area.sticky-menu {
     padding: 0 0;
@@ -1864,7 +1865,8 @@ Breadcrumb
       letter-spacing: -0.01em;
       text-transform: capitalize;
       line-height: 1.1;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      color: #FCAF17; }
       @media (max-width: 767.98px) {
         .breadcrumb__wrap__content .title {
           font-size: 46px; } }
@@ -1883,7 +1885,7 @@ Breadcrumb
       font-weight: 700;
       color: #FCAF17; }
       .breadcrumb__wrap .breadcrumb li a {
-        color: #68666C; }
+        color: white; }
   .breadcrumb__wrap__icon {
     position: absolute;
     left: 0;
@@ -2926,13 +2928,14 @@ Animated Counts
       width: 100%; }
 
 .services__sidebar {
-  margin-left: 37px; }
+  margin-left: 37px;
+  margin-top: 20px; }
   @media (max-width: 1199.98px) {
     .services__sidebar {
       margin-left: 0; } }
   @media (max-width: 991.98px) {
     .services__sidebar {
-      margin-top: 115px; } }
+      margin-top: 30px; } }
   .services__sidebar .widget {
     border: 2px solid #F7F7F7;
     padding: 35px 35px 40px;
@@ -3427,7 +3430,7 @@ Animated Counts
       .portfolio__inner__item:nth-child(even) .row [class*="col-"]:first-child {
         order: 0; } }
   .portfolio__inner__item:nth-child(even) .portfolio__inner__content {
-    text-align: right;
+    text-align: left;
     padding: 50px 80px 50px 0; }
     @media (max-width: 1199.98px) {
       .portfolio__inner__item:nth-child(even) .portfolio__inner__content {
