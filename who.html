@@ -50,7 +50,19 @@
                                     <div class="navbar__wrap main__menu d-none d-xl-flex">
                                         <ul class="navigation">
                                             <li><a href="index.html">Home</a></li>
-                                            <li class="active"><a href="who.html">Who are we</a></li>
+                                            <li class="active menu-item-has-children"><a href="#">Who are we</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="who.html#about">About</a></li>
+                                                    <li><a href="who.html#purpose">Our Purpose</a></li>
+                                                    <li><a href="who.html#portfolio">Our Projects</a></li>
+                                                    <li class="menu-item-has-children"><a href="#">Our Team</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="who.html#">Board Members</a></li>
+                                                            <li><a href="who.html#">Senior Management Team</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                             <li><a href="news-success.html">News & Success stories</a></li>
                                             <li><a href="publication.html">Publications</a></li>
                                             <li><a href="contact.html">contact us</a></li>
@@ -118,7 +130,7 @@
 
 
         <!-- about-area -->
-        <section class="about about__style__two">
+        <section class="about about__style__two" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -130,9 +142,9 @@
                         <div class="about__content">
                             <div class="section__title">
                                 <span class="sub-title">About us</span>
-                                <h2 class="title">About Health One on One Africa (HONA)</h2>
+                                <h2 class="title">Health One on One Africa (HONA)</h2>
                             </div>
-                            <p class="desc" style="text-align: justify;">Health One on One Africa is indigenous Tanzanian non-governmental organization founded in 2023 with its Headquarters located at Mikocheni A along Bagamoyo road Dar-es-Salaam.</p>
+                            <p class="desc" style="text-align: justify;"><strong>HONA</strong> is indigenous Tanzanian non-governmental organization founded in 2023 with its Headquarters located at Mikocheni A along Bagamoyo road Dar-es-Salaam.</p>
                             <a href="#more"  class="btn">Proceed</a>
                         </div>
                     </div>
@@ -383,11 +395,19 @@
 
 
         <!-- mission-vision-area  -->
-        <section class="work__process">
+        <section class="work__process" id="purpose">
             <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-xl-6 col-lg-8">
+                        <div class="section__title text-center">
+                            <h2 class="title">Our Purpose</h2>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="row work__process__wrap">
 
-                    
                     <div class="col" >
                         <div class="work__process__item">
                             <div style=" display: flex; justify-content: flex-start; align-items: center;">
@@ -404,8 +424,6 @@
                         </div>
                     </div>
 
-
-                    
                     <div class="col">
                         <div class="work__process__item">
                             <div style=" display: flex; justify-content: flex-start; align-items: center;">
@@ -453,7 +471,6 @@
                             </div>
                         </div>
                     </div>
-
 
                 </div>
             </div>

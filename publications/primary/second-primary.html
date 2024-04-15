@@ -42,7 +42,7 @@
                         <div class="col-12">
                             <div class="mobile__nav__toggler"><i class="fas fa-bars"></i></div>
                             <div class="menu__wrap">
-                                <nav class="menu__nav">
+                                <nav class="menu__nav" aria-label="Menu navigation">
                                     <div class="logo">
                                         <a href="../../index.html" class="logo__black"><img src="../../assets/img/logo/hona.png" alt=""></a>
                                         <a href="../../index.html" class="logo__white"><img src="../../assets/img/logo/hona.png" alt=""></a>
@@ -50,7 +50,19 @@
                                     <div class="navbar__wrap main__menu d-none d-xl-flex">
                                         <ul class="navigation">
                                             <li><a href="../../index.html">Home</a></li>
-                                            <li><a href="../../who.html">Who are we</a></li>
+                                            <li class="menu-item-has-children"><a href="#">Who are we</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="../../who.html#about">About</a></li>
+                                                    <li><a href="../../who.html#purpose">Our Purpose</a></li>
+                                                    <li><a href="../../who.html#portfolio">Our Projects</a></li>
+                                                    <li class="menu-item-has-children"><a href="#">Our Team</a>
+                                                        <ul class="sub-menu">
+                                                            <li><a href="../../who.html#">Board Members</a></li>
+                                                            <li><a href="../../who.html#">Senior Management Team</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
                                             <li><a href="../../news-success.html">News & Success stories</a></li>
                                             <li class="active"><a href="second-primary.html">Publications</a></li>
                                             <li><a href="../../contact.html">contact us</a></li>
@@ -63,7 +75,7 @@
                             </div>
                             <!-- Mobile Menu  -->
                             <div class="mobile__menu">
-                                <nav class="menu__box">
+                                <nav class="menu__box" aria-label="Mobile navigation">
                                     <div class="close__btn"><i class="fal fa-times"></i></div>
                                     <div class="nav-logo">
                                         <a href="../../index.html" class="logo__black"><img src="../../assets/img/logo/hona.png" alt=""></a>
