@@ -2643,6 +2643,160 @@ Animated Counts
   -ms-transform: translate(0, 0);
   transform: translate(0, 0); }
 
+
+
+
+
+
+.team{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-lead{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .team-lead {
+    width: 80%; } }
+
+.team-lead .image img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  transition: .2s linear;
+}
+
+.team-lead:hover .image img{
+  transform: scale(1.05);
+}
+
+.team-lead .image{
+  height: 100%;
+  width:100%;
+  overflow:hidden;
+}
+
+.team-lead .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: justify; 
+}
+
+.team-title{
+  margin: 80px 0;
+}
+
+@media (max-width: 420px) {
+  .team-title h3{
+    font-size:x-large;
+} }
+
+.members {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 200px;
+  grid-gap: 20px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) {
+  .members{
+    padding: 0 100px;} }
+
+@media (max-width: 968px) {
+  .members{
+    padding: 0 20px;
+    grid-gap: 5px;} }
+
+@media (max-width: 768px) {
+  .members{
+    display: flex;
+    flex-direction: column;} }
+
+.inbox-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-container .inbox-container .box{    
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding:0.3rem;
+    background:rgba(223, 216, 216, 0.123) ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .box-container .inbox-container .box{
+    width: 70%;
+    height: 70%;
+} }
+@media (max-width: 568px) {
+  .box-container .inbox-container .box{
+    width: 80%;
+    height: 80%;
+} }
+
+@media (max-width: 420px) {
+  .box-container .inbox-container .box{
+    width: 100%;
+    height: 100%;
+} }
+
+.box-container .inbox-container .box .image{
+    width:100%;
+    overflow:hidden;
+}
+
+.box-container .inbox-container .box .image img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.box-container .inbox-container .box:hover .image img{
+   transform: scale(1.05);
+}
+
+.box-container .inbox-container .box .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;    
+  text-align: justify; 
+}
+
+.box-container .inbox-container .box h3, .team-lead .content h3{
+  font-size: large;
+  text-transform: uppercase;
+  color: #FCAF17;
+  letter-spacing: 2px;
+}
+
+
+
+
+
 /*=============================
 05. Services
 =============================*/
