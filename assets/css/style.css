@@ -2643,11 +2643,6 @@ Animated Counts
   -ms-transform: translate(0, 0);
   transform: translate(0, 0); }
 
-
-
-
-
-
 .team{
   margin-top: 150px;
   display: flex;
@@ -2661,12 +2656,29 @@ Animated Counts
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 30%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1120px) {
+  .team-lead {
+    width: 35%; } }
+
+@media (max-width: 958px) {
+  .team-lead {
+    width: 40%; } }
+
+@media (max-width: 836px) {
+  .team-lead {
+    width: 45%; } }
+
+@media (max-width: 646px) {
+  .team-lead {
+    width: 60%; } }
+
+
+@media (max-width: 485px) {
   .team-lead {
     width: 80%; } }
 
